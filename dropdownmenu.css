@@ -1,0 +1,35 @@
+body{
+	width: 100%;
+	height: 100vh;
+	font-family: Arial;
+	background-image: url(https://news.easyshiksha.com/wp-content/uploads/2017/10/Manav-Rachna-International-University-2.jpg);
+	background-size: 100%;
+}
+.dropdownmenu{
+	margin-left: 450px;
+}
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+ul li{
+	list-style: none;
+	float: left;
+	width: 200px;
+	height: 40px;
+	line-height: 40px;
+    text-align: center;
+    background-color: #000;
+	color: #fff;
+	opacity: 0.9;
+}
+ul li:hover{
+	background-color: red;
+}
+ul li ul li{
+	display: none;
+}
+ul li:hover  ul li{
+	display: block;
+}
